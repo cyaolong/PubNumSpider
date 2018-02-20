@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-    let gameName = '荒野行动';
+    let gameName = '梦幻西游';
 
     const browser = await puppeteer.launch({headless:true});
     const page = await browser.newPage();
